@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+    <style>
+        /*hsl: hue,saturation,lightness*/
+        .container{
+            margin:0 auto; background:hsl(154,74%,36%);box-sizing: border-box; }
+        /*Smart Phones(Potrait and landscape)*/
+        @media screen and (min-width:320px) {
+            .container{
+               width:100%; padding:5px 10px; }}
+        /*Tablet or ipad(Potrait and landscape)*/
+        @media screen and (min-width:768px) and (max-width:1024px){
+            .container{
+               width:750px;
+               padding:5px 10px;
+        }  }
+        /*Low resolution Desktops and laptops*/
+        @media screen and (min-width:1224px) {
+            .container{
+               width:980%;
+               padding:5px 15px;}}
+        /*Low resolution Desktops and laptops*/
+        @media screen and (min-width:1824px) {
+            .container{
+               width:1200%;
+               padding:5px 20px;}}
+    </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>CSS Web Technologies</h1>
+         <p>Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Repellendus numquam
+            incidunt eos rerum iusto reiciendis quo,
+            sapiente hic veniam istenim quis quaerat,
+            at voluptates molestiae, duc imus dele lore.
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Repellendus numquam incidunt
+            eos rerum iusto reiciendis quo, sapiente hic 
+            veniam iste nim quis quaerat, at voluptatesmolestia
+            du imus dele loreLorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Repellendus numquaimus dele lore
+            >Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Repellendus numquam
+            incidunt eos rerum iusto reiciendis quo,
+            sapiente hic veniam istenim quis quaerat,
+            at voluptates molestiae, duc imus dele lore.
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Repellendus numquam incidunt
+            eos rerum iusto reiciendis quo, sapiente hic 
+            veniam iste nim quis quaerat, at voluptatesmolestia
+            du imus dele loreLorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Repellendus numquaimus dele lore</p>
+            </div>
+    </body>
+</html>

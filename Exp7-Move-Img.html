@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>CSS3 Animation</title>
+        <style>
+            .anim{
+                margin:50px;
+                width:150px;
+                height:250px;
+                background:url("ball.jfif")no-repeat;
+                position:relative;
+                animation:repeatit 1s linear 5s infinite alternate;
+            }
+            @keyframes repeatit{
+                    from{left: 20px;}
+                    to{left:80%;}
+            }
+        </style>
+    </head>
+    <body>
+         <div class="anim"></div>
+    </body>
+</html>
